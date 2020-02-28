@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PlanetCotton.com" duration-ms="45775" started-at="2020-02-22T22:00:09 EST" finished-at="2020-02-22T22:00:55 EST">
+    <groups>
+    </groups>
+    <test name="DwnloadingCatalog" duration-ms="24578" started-at="2020-02-22T22:00:09 EST" finished-at="2020-02-22T22:00:34 EST">
+      <class name="testingPCcatalog.TestDownloadErrorMSG">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testingPCcatalog.TestDownloadErrorMSG@551aa95a]" name="beforeClass" is-config="true" duration-ms="15092" started-at="2020-02-22T22:00:09 EST" finished-at="2020-02-22T22:00:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://planetcotton.com/sdm_downloads/2020-resort-catalog/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testingPCcatalog.TestDownloadErrorMSG@551aa95a]" name="f" duration-ms="8284" started-at="2020-02-22T22:00:24 EST" finished-at="2020-02-22T22:00:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testingPCcatalog.TestDownloadErrorMSG@551aa95a]" name="closeBrowser" is-config="true" duration-ms="675" started-at="2020-02-22T22:00:33 EST" finished-at="2020-02-22T22:00:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testingPCcatalog.TestDownloadErrorMSG -->
+    </test> <!-- DwnloadingCatalog -->
+    <test name="RegressionTestFFx" duration-ms="21058" started-at="2020-02-22T22:00:34 EST" finished-at="2020-02-22T22:00:55 EST">
+      <class name="testingPCcatalog.TestDownloadErrorMSG">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testingPCcatalog.TestDownloadErrorMSG@694e1548]" name="beforeClass" is-config="true" duration-ms="11247" started-at="2020-02-22T22:00:34 EST" finished-at="2020-02-22T22:00:45 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://planetcotton.com/sdm_downloads/2020-resort-catalog/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testingPCcatalog.TestDownloadErrorMSG@694e1548]" name="f" duration-ms="8055" started-at="2020-02-22T22:00:45 EST" finished-at="2020-02-22T22:00:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testingPCcatalog.TestDownloadErrorMSG@694e1548]" name="closeBrowser" is-config="true" duration-ms="1601" started-at="2020-02-22T22:00:53 EST" finished-at="2020-02-22T22:00:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testingPCcatalog.TestDownloadErrorMSG -->
+    </test> <!-- RegressionTestFFx -->
+  </suite> <!-- PlanetCotton.com -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "PlanetCotton.com" >
+
+<listeners>
+<listener class-name="common.listenersPC"></listener>
+</listeners>
+
+<test name = "DwnloadingCatalog">
+
+<parameter name ="url" value = "https://planetcotton.com/sdm_downloads/2020-resort-catalog/" ></parameter>
+
+<parameter name = "browser" value = "Chrome" ></parameter>
+
+<classes>
+<class name = "testingPCcatalog.TestDownloadErrorMSG"></class>
+</classes>
+</test>
+<test name = "RegressionTestFFx">
+
+<parameter name ="url" value = "https://planetcotton.com/sdm_downloads/2020-resort-catalog/" ></parameter>
+
+<parameter name = "browser" value = "firefox" ></parameter>
+
+<classes>
+<class name = "testingPCcatalog.TestDownloadErrorMSG"></class>
+</classes>
+</test>
+</suite>
